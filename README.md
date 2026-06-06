@@ -35,4 +35,4 @@ java -jar target/codeforge-ide-1.0.0-shaded.jar
 ```
 
 ## 👤 Author
-Built with ❤️ using Java 21 + JavaFX
+Kailash Aghav
