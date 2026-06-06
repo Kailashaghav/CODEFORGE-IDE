@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.codeforge.TerminalController"
+      VBox.vgrow="ALWAYS">
+
+    <TextArea fx:id="terminalOutput" VBox.vgrow="ALWAYS"
+              styleClass="terminal-output" wrapText="true"/>
+    <TextField fx:id="terminalInput" styleClass="terminal-input"
+               promptText="Enter command..."
+               onAction="#handleCommand"/>
+</VBox>

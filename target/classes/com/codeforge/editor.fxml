@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import org.fxmisc.richtext.CodeArea?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.codeforge.EditorController"
+      styleClass="root-container">
+
+    <MenuBar styleClass="menu-bar">
+        <Menu text="File">
+            <MenuItem text="New" onAction="#handleNew"/>
+        </Menu>
+    </MenuBar>
+
+    <SplitPane orientation="VERTICAL" VBox.vgrow="ALWAYS">
+        <CodeArea fx:id="codeArea" styleClass="code-area"/>
+        <VBox styleClass="terminal-container" prefHeight="180">
+            <fx:include source="terminal.fxml"/>
+        </VBox>
+    </SplitPane>
+
+    <Label fx:id="statusLabel" styleClass="status-bar" text="Ready"/>
+</VBox>
