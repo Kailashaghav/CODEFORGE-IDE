@@ -21,6 +21,8 @@
 | RichTextFX | 0.11.3 |
 | Maven | 3.9+ |
 
+<img width="1680" height="1050" alt="4D75604E-439E-43C1-B699-FFC5AE31880A" src="https://github.com/user-attachments/assets/8e80032a-7211-4464-8061-8d925cbe4528" />
+
 ## 🚀 Run the Project
 ```bash
 git clone https://github.com/YOUR_USERNAME/codeforge-ide.git
